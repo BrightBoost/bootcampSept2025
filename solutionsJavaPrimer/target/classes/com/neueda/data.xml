@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+    <book>
+        <author>Arne</author>
+        <title>I don't think I would write a book</title>
+        <publicationYear>2022</publicationYear>
+        <isbn>98234392983</isbn>
+    </book>
+    <book>
+        <author>Sean</author>
+        <title>Why I love Java</title>
+        <publicationYear>2021</publicationYear>
+        <isbn>22323234234</isbn>
+    </book>
+</books>
