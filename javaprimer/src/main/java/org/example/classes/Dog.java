@@ -1,64 +1,15 @@
 package org.example.classes;
 
-public class Dog {
+public class Dog extends Pet {
     public static final String speciesName = "Canis lupus familiaris";
-    private String name;
-    private String colour;
-    private String eyeColour;
-    private double height;
-    private double length;
     private double listenRatio;
 
     public Dog() {
     }
 
-    public Dog(String name, String colour, String eyeColour, double height, double length, double listenRatio) {
-        this.name = name;
-        this.colour = colour;
-        this.eyeColour = eyeColour;
-        this.height = height;
-        this.length = length;
+    public Dog(String name, String colour, String eyeColour, double height, double length, double listenRatio, boolean isHealthy) {
+        super(name, colour, eyeColour, height, length, isHealthy);
         this.listenRatio = listenRatio;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public String getEyeColour() {
-        return eyeColour;
-    }
-
-    public void setEyeColour(String eyeColour) {
-        this.eyeColour = eyeColour;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getLength() {
-        return length;
-    }
-
-    public void setLength(double length) {
-        this.length = length;
     }
 
     public double getListenRatio() {
@@ -70,25 +21,30 @@ public class Dog {
     }
 
     public boolean command(String instruction, boolean urgent) {
-        System.out.println(name + ", " + instruction);
+        System.out.println(getName() + ", " + instruction);
         if(listenRatio * Math.random() > 0.1 || urgent) {
-            System.out.println(name + " listens");
+            System.out.println(getName() + " listens");
             return true;
         } else {
-            System.out.println(name + " seems to ignore you.");
+            System.out.println(getName() + " seems to ignore you.");
             return false;
         }
     }
 
     public boolean command(String instruction) {
-        System.out.println(name + ", " + instruction);
+        System.out.println(getName() + ", " + instruction);
         if(listenRatio * Math.random() > 0.1) {
-            System.out.println(name + " listens");
+            System.out.println(getName() + " listens");
             return true;
         } else {
-            System.out.println(name + " seems to ignore you.");
+            System.out.println(getName() + " seems to ignore you.");
             return false;
         }
+    }
+
+    @Override
+    public void eat(String food) {
+        System.out.println(getName() + " ate " + food + ". Wait that was edible, right?");
     }
 
 }
