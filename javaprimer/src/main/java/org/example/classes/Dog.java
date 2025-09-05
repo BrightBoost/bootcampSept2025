@@ -9,6 +9,18 @@ public class Dog {
     private double length;
     private double listenRatio;
 
+    public Dog() {
+    }
+
+    public Dog(String name, String colour, String eyeColour, double height, double length, double listenRatio) {
+        this.name = name;
+        this.colour = colour;
+        this.eyeColour = eyeColour;
+        this.height = height;
+        this.length = length;
+        this.listenRatio = listenRatio;
+    }
+
     public String getName() {
         return name;
     }
@@ -55,6 +67,17 @@ public class Dog {
 
     public void setListenRatio(double listenRatio) {
         this.listenRatio = listenRatio;
+    }
+
+    public boolean command(String instruction, boolean urgent) {
+        System.out.println(name + ", " + instruction);
+        if(listenRatio * Math.random() > 0.1 || urgent) {
+            System.out.println(name + " listens");
+            return true;
+        } else {
+            System.out.println(name + " seems to ignore you.");
+            return false;
+        }
     }
 
     public boolean command(String instruction) {
