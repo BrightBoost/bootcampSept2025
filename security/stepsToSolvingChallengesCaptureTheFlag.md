@@ -35,6 +35,7 @@ Can we find the **admin user’s email address**?
 1. Open **Developer Tools** → **Sources** tab.  
 2. Open `main.js` and search for an email (tip: search for `@jui`).  
 - You’ll find: `testing@juice-sh.op`.  
+- Or easier, thanks group! Check the review of the first product and there it is.
 3. From this, we can guess the admin user is:  admin@juice-sh.op
 
 4. Validate the email:
