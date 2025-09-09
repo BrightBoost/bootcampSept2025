@@ -1,0 +1,5 @@
+- [SQL Island](https://sql-island.informatik.uni-kl.de/?lang=en)
+- [Murder mystery](https://mystery.knightlab.com/)
+- [SQL Squid game](https://datalemur.com/sql-game)
+- [More mysteries](https://www.sqlnoir.com/)
+- [Evergreen challenges](https://www.hackerrank.com/domains/sql)
