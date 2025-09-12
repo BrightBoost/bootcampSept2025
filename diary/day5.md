@@ -1,0 +1,5 @@
+- BitBucket question: Requirement is that we need a link with your bitbucket project. Including evidence of branches that you used (to demonstrate good collaboritive git practices). It's also very important the commit history reflects the correct usernames so that we can see that everybody contributed to what.
+- Introduce project
+- Pop up quiz
+- 4PM we have mini presentation of 10 minutes
+- End with survey of sprint 1
