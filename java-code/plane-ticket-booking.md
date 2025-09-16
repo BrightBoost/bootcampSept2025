@@ -36,26 +36,25 @@ You work for a travel startup building a tiny booking module that stores plane t
 ```java
 @Test
 public void testSortBookingsByPrice() {
-BookingService bookingService = new BookingService();
+    BookingService bookingService = new BookingService();
+    // Tickets with different booking refs and prices
+    PlaneTicket t1 = new PlaneTicket("REF123", 500.0,
+    LocalDateTime.of(2025,9,16,10,0), LocalDateTime.of(2025,9,16,12,0));
+    PlaneTicket t2 = new PlaneTicket("REF456", 300.0,
+    LocalDateTime.of(2025,9,16,11,0), LocalDateTime.of(2025,9,16,13,0));
+    PlaneTicket t3 = new PlaneTicket("REF789", 700.0,
+    LocalDateTime.of(2025,9,16,9,0), LocalDateTime.of(2025,9,16,11,0));
 
-// Tickets with different booking refs and prices
-PlaneTicket t1 = new PlaneTicket("REF123", 500.0,
-LocalDateTime.of(2025,9,16,10,0), LocalDateTime.of(2025,9,16,12,0));
-PlaneTicket t2 = new PlaneTicket("REF456", 300.0,
-LocalDateTime.of(2025,9,16,11,0), LocalDateTime.of(2025,9,16,13,0));
-PlaneTicket t3 = new PlaneTicket("REF789", 700.0,
-LocalDateTime.of(2025,9,16,9,0), LocalDateTime.of(2025,9,16,11,0));
+    bookingService.addTicket(t1);
+    bookingService.addTicket(t2);
+    bookingService.addTicket(t3);
 
-bookingService.addTicket(t1);
-bookingService.addTicket(t2);
-bookingService.addTicket(t3);
+    bookingService.sortBookings();
 
-bookingService.sortBookings();
+    List<PlaneTicket> sorted = bookingService.getAllPlaneTickets();
 
-List<PlaneTicket> sorted = bookingService.getAllPlaneTickets();
-
-assertEquals("REF456", sorted.get(0).getBookingRef());
-assertEquals("REF123", sorted.get(1).getBookingRef());
-assertEquals("REF789", sorted.get(2).getBookingRef());
+    assertEquals("REF456", sorted.get(0).getBookingRef());
+    assertEquals("REF123", sorted.get(1).getBookingRef());
+    assertEquals("REF789", sorted.get(2).getBookingRef());
 }
 ```
