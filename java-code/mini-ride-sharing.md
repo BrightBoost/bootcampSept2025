@@ -1,6 +1,6 @@
 # Assignment: Mini Ride-Sharing System
---------------------------------------------------------
-Students will implement a small ride-sharing app that demonstrates encapsulation, abstraction via an interface, and use of collection classes (List, Map). The system must let riders request rides, match them to available drivers, track rides, and complete rides.
+
+Implement a small ride-sharing system, app must let riders request rides, match them to available drivers, track rides, and complete rides.
 
 ## Step By Step Task 
 
