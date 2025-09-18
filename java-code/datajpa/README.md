@@ -48,3 +48,31 @@
    - @ControllerAdvise to show that this class is handling exception
    - @ExceptionHandler to the method handler based on Exception Type
    - @ResponseBody to provide Response
+
+## Testing Repo
+1. @DataJpaTest
+   - Configure In-memory database test (By default)
+   - scan for @Entity and set up JPA
+   - configure spring Data JPA Repo
+   - disable for auto-configuration (service , controller)- only for data layer
+   - Roll back all transactions after each test
+
+## Testing Service Layer
+1. @ExtendWith(MockitoExtension.class)
+   - it tells Junit enable Mockito Support
+   - it allows @Mock and @InjectMocks you can mock data from repo and test it using service
+2. @Mock: instead of using real database mock helps us to provide fake isolation
+3. @InjectMocks: repo mock into service layer
+
+
+
+
+
+
+
+
+
+
+
+
+
