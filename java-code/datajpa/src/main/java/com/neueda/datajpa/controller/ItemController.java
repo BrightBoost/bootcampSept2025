@@ -1,6 +1,8 @@
 package com.neueda.datajpa.controller;
 
 import com.neueda.datajpa.entity.Item;
+import com.neueda.datajpa.exception.InvalidParameterException;
+import com.neueda.datajpa.exception.ItemNotFoundException;
 import com.neueda.datajpa.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,28 +23,32 @@ public class ItemController {
         return ResponseEntity.ok(items);
     }
     @PostMapping
-    public ResponseEntity<Item> createItem(@RequestBody Item item){
+    public ResponseEntity<Item> createItem(@RequestBody Item item) throws InvalidParameterException{
+        if(item==null || item.getName() ==null || item.getName().isBlank()|| item.getPrice()==0){
+            throw new InvalidParameterException("Item name and price must be provided");
+        }
         Item newItem = itemService.createItem(item);
         return new ResponseEntity<>(newItem, HttpStatus.CREATED);
     }
     @GetMapping("{id}")
-    public ResponseEntity<Object> getByItemId(@PathVariable Long id){
-        Item item= itemService.getItemById(id);
-        if(item==null)
-            return new ResponseEntity<>("Item Not Found",HttpStatus.NOT_FOUND);
-        else
-            return new ResponseEntity<>(item, HttpStatus.OK);
+    public ResponseEntity<Object> getByItemId(@PathVariable Long id) throws InvalidParameterException,
+            ItemNotFoundException{
+        if(id==null){
+            throw new InvalidParameterException("Item id must be provided");
+        }
+        return ResponseEntity.ok(itemService.getItemById(id));
     }
     @PutMapping("{id}")
-    public ResponseEntity<Object> updateItem(@RequestBody Item item,@PathVariable Long id){
-        Item updatedItem=itemService.updateItem(id,item);
-        if(item==null)
-            return new ResponseEntity<>("Item Not Found",HttpStatus.NOT_FOUND);
-        else
-            return new ResponseEntity<>(item, HttpStatus.OK);
+    public ResponseEntity<Object> updateItem(@RequestBody Item item,@PathVariable Long id)
+    throws InvalidParameterException, ItemNotFoundException {
+        if(item==null || item.getName() ==null || item.getName().isBlank()|| item.getPrice()==0){
+            throw new InvalidParameterException("Item name and price must be provided");
+        }
+        Item createdItem = itemService.updateItem(id,item);
+        return ResponseEntity.ok(createdItem);
     }
     @DeleteMapping("{id}")
-    public ResponseEntity<Void> deleteItem(@PathVariable Long id){
+    public ResponseEntity<Void> deleteItem(@PathVariable Long id) throws ItemNotFoundException{
         itemService.deleteItem(id);
         return ResponseEntity.noContent().build();
     }

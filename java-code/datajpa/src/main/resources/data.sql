@@ -3,3 +3,4 @@ INSERT INTO item (name,price) values ('Banana',0.60)
 INSERT INTO item (name,price) values ('Cherry',0.93)
 INSERT INTO item (name,price) values ('Grapes',1.29)
 INSERT INTO item (name,price) values ('Mango',1.99)
+-- Don't use "" for string values here

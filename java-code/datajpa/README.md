@@ -25,3 +25,26 @@
 7. set application.properties file for H2 Database Configuration
 8. data.sql file for Data Seeding
 9. Test APIs using PostMan or Swagger API
+
+## Implement Exception Handling
+
+1. create 2 custom exception class
+   - ItemNotFoundException
+   - InvalidParameterException
+2. Based on this update methods in service Impl
+   - getById throw ItemNotFoundException
+   - deleteById throw ItemNotFoundException
+   - updateById throw ItemNotFoundException
+3. Update Controllers accordingly
+   - create Item throws Invalid Parameter Exception based on some data validation condition
+   - update Item throws Invalid Parameter Exception
+   - manage declaration of exception in controllers methods
+4. Run application check how exception throws
+5. Handle it using Global Exception Handler
+   - 1 method to handle InValidParameterException
+   - 1 method to handle ItemNotFoundException
+   - 1 method for general Exception
+6. used annotations
+   - @ControllerAdvise to show that this class is handling exception
+   - @ExceptionHandler to the method handler based on Exception Type
+   - @ResponseBody to provide Response
