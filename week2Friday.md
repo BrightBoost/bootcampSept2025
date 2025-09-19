@@ -8,6 +8,11 @@
 - WEEKEND 
 
 ## Presentation requirements
-- Team work reflection week 2
+- Team work reflection week 2, for example:
+    - team dynamics: how well did you collaborate, roles and responsibilities clear, decision making, balance of contributions of the team members
+    - communication and team vibe
+    - planning: clear goals and time management, task tracking
+    - problem solving: any unexpected issues that had to be handled, conflicts that got resolved, etc
+    - learning and growth: what did you learn as a team, what skills did you strengthen
 - Show progress
 - Present plan for what will be added later
