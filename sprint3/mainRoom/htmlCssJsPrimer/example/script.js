@@ -1,3 +1,22 @@
+window.onload = function () {
+    const apiURL = "https://dummyjson.com/todos";
+    const todoList = document.getElementById('todoList');
+    fetch(apiURL)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            for(let i = 0; i < data["todos"].length; i++) {
+                const li = document.createElement("li");
+                li.innerText = data["todos"][i]["todo"];
+                todoList.append(li);
+            }
+        })
+        .catch(function (err) {
+            console.log("Oh no: " + err)
+        });
+
+}
 function greet() {
     // get the value from an input box
     const name = document.getElementById('nameInput').value;
@@ -29,7 +48,7 @@ function generateListItems() {
     const favoriteAnimals = ['Dog', 'Cat', 'Elephant', 'Giraffe', 'Lion'];
     const list = document.getElementById('animalList');
     list.innerHTML = '';
-    for(let i = 0; i < favoriteAnimals.length; i++) {
+    for (let i = 0; i < favoriteAnimals.length; i++) {
         const listItem = document.createElement('li');
         listItem.innerText = favoriteAnimals[i];
         list.appendChild(listItem);
