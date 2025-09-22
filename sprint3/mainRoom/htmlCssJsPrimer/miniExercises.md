@@ -15,7 +15,7 @@ By the end, you'll have a simple personal page that starts static, gets styled, 
 * A main heading with your name.
 * A short intro/about paragraph.
 * A list of skills (use `<ul>` or `<ol>`).
-* A placeholder for an image (profile picture, hobby, or favorite thing).
+* An image (profile picture, hobby, or favorite thing).
 * A link to something that represents you (e.g., LinkedIn, favorite site).
 
 **Go crazy:**
