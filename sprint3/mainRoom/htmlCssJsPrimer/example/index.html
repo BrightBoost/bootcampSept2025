@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New title blabla</title>
+
     <link href="styles.css" rel="stylesheet">
 
 </head>
+
 <body>
     <h1>Main title</h1>
     <h2>Subtitle</h2>
@@ -18,13 +21,23 @@
     <a href="https://www.w3schools.com/html">More on HTML</a>
     <ol>
         <li>Item 1</li>
-        <li>Item 2</li>     
-        <li>Item 3</li> 
+        <li>Item 2</li>
+        <li>Item 3</li>
     </ol>
     <div class="square"></div>
     <div class="square"></div>
     <div class="square"></div>
     <div class="square"></div>
+    <button onclick="changeColors()">Change Colors</button>
+
     <img src="images/cutesky.webp" alt="puppy Image" width="200">
+    <br>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="greet()">Greet me</button>
+    <div id="greeting"></div>
+    <ol id="animalList"></ol>
+    <button onclick="generateListItems ()">Show Animals</button>
+    <script src="script.js"></script>
 </body>
+
 </html>
