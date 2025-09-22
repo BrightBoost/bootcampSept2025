@@ -42,6 +42,8 @@ By the end, you'll have a simple personal page that starts static, gets styled, 
 * Experiment with borders, shadows, or rounded corners.
 * Try a simple layout (centered content, two columns, or a card style).
 * Ever heard of Bootstrap? (Add it with a CDN and play around with the styles)
+* [Do this fun CSS game](https://flukeout.github.io/)
+* [Or this one, quite advanced](https://flexboxfroggy.com/)
 
 ---
 
