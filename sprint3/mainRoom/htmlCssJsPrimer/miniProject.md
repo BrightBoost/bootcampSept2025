@@ -30,11 +30,10 @@ Show us are at the end. You’ve got this. 💪
 
 1. Fetch a list endpoint; render responsive cards (image + title + short description).
 2. Click a card ➜ show details (in modal or dedicated section).
-3. Include a **search box** (by name/title).
-4. Handle **loading**, **errors**, and **no results** with friendly UI.
+3. Handle **loading**, **errors**, and **no results** with friendly UI.
 
 **Nice-to-haves:**
-
+* Include a **search box** (by name/title).
 * Pagination (“Load more”).
 * Client-side **favorites** (localStorage).
 * Filter chips (type, year, etc.).
