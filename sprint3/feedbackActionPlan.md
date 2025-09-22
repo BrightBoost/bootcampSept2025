@@ -1,0 +1,7 @@
+- Two learning paths: main room (beginner) + individual (intermediate + advanced)
+- No talking/demo part that goes over 20 mins. Need more time? Mini break or mini exercise
+- Lecture followed by optional code along/exercise
+- Exercise consist of basic part and bonus part
+- After theory, let's connect it to the real practice together
+- We'll continue the quizzes
+- Mini projects + demonstrate the work of the advanced individual people to the group
