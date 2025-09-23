@@ -37,7 +37,7 @@
 
 ---
 
-### Components, Loops & Conditional Rendering
+### Part 3 - Components, Loops & Conditional Rendering
 
 **Goal:** Break UI into logical components.
 **Steps:**
@@ -55,7 +55,7 @@
 
 ---
 
-## Part 3 - Props and more
+## Part 4 - Props and more
 
 **Goal:** Build `SkillList` and `SkillTag`.
 **Must-haves:**
@@ -73,7 +73,7 @@
 
 ---
 
-## Part 4 - Another Exercise (Edit & Delete skills)
+## Part 5 - Another Exercise (Edit & Delete skills)
 
 **Goal:** Add a new skill via a controlled form.
 **Steps:**
