@@ -27,13 +27,13 @@
 
 * Show “Open to work” badge only if a boolean is true.
 * Render 3 “headline keywords” (e.g., “React”, “UI”, “Teaching”) from an array.
-  **Bonus:** Use `map` for lists; conditionals with `&&` or ternary.
+* Use `map` for lists; conditionals with `&&` or ternary.
+* Show a message if the array of keywords is empty.
 
 **Bonus parts:**
 
 * Highlight one keyword in bold or with an emoji if it’s your “favorite.”
 * Add a counter showing how many keywords you currently have.
-* Show a message if the array of keywords is empty.
 
 ---
 
