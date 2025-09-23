@@ -1,5 +1,5 @@
-
 import './App.css'
+import CoffeeList from './components/CoffeeList';
 // ⭐
 function App() {
   const favCoffee = "Latte";
@@ -9,7 +9,8 @@ function App() {
   const coffeeObjects = [
     { name: "Latte", rating: 4.5 },
     { name: "Cappuccino", rating: 4.7 },
-    { name: "Espresso", rating: 4.9 }
+    { name: "Espresso", rating: 4.9 },
+    { name: "Hazelnut coffee", rating: 4.0 }
   ];
 
   return (
@@ -28,14 +29,9 @@ function App() {
         ))}
       </ul>
 
-      <h2>Coffees with ratings:</h2>
-      <ul>
-        {coffeeObjects.map(coffee => (
-          <li key={coffee.name}>
-            {coffee.name} - {coffee.rating > 4.5 ? "⭐" : "👎"}
-          </li>
-        ))}
-      </ul>
+      <CoffeeList list={coffeeObjects} />
+
+
     </>
   )
 }
