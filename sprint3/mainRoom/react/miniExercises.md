@@ -75,7 +75,7 @@
 
 ## Part 5 - Another Exercise (Edit & Delete skills)
 
-**Goal:** Add a new skill via a controlled form.
+**Goal:** Add a new skill via a form.
 **Steps:**
 
 * `AddSkillForm` with input + “Add” button (disabled when empty).
