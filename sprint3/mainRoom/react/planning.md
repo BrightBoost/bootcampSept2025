@@ -16,24 +16,24 @@
 - 13.30-16.15: Mini project!
 - 16.15-17.00: Present + wrap up quiz
 
-## Wednesday (this is not a final outline)
+## Wednesday 
 - 9.00-9.15: welcome and Maaike won't forget the attendance registry
-- 9.15-9.30: REST calls
-- 9.30-10.00: REST exercise (a nap doesn't count)
-- 10.00-10.10: Coffee, or sparkling water
-- 10.10-10.30: Basic routing explained
-- 10.30-11.00: Routing exercise
+- 9.15-9.30: GET REST calls
+- 9.30-10.00: REST exercise (a nap doesn't count) (part 6)
+- 10.00-10.20: Other REST calls
+- 10.20-10.40: REST exercise 2 (part 7)
+- 10.40-11.00: Basic routing explained
 - 11.00-11.10: More coffee
-- 11.10-11.30: Passing parameters
-- 11.30-11.45: Routing exercise
-- 11.45-12.00: Basic testing explained
-- 12.00-12.30: Testing exercise
+- 11.00-11.30: Routing exercise (part 8)
+- 11.30-11.50: Passing parameters
+- 11.50-12.20: Passing parameters exercise (part 9)
+- 12.20-12.30: Review
 - 12.30-13.30: Lunch
 - 13.30-16.15: Mini project!
 - 16.15-17.00: Present + wrap up quiz
 
 ## Almost Friday ("Thursday")
-- More testing
+- Testing
 - Context
 - Afternoon: Hackathon 
 
