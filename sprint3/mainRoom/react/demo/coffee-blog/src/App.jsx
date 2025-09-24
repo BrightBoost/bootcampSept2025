@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import CoffeeList from './components/CoffeeList';
 import AddCoffeeForm from './components/AddCoffeeForm';
+import RecipeList from './components/RecipeList';
 // ⭐
 function App() {
   const [likes, setLikes] = useState(0);  
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <>
+      <RecipeList />
       <h1>Very welcome to my Coffee Blog</h1>
       <p>This many people liked my page: {likes}</p>
       <p>Do you like my page too?</p>
