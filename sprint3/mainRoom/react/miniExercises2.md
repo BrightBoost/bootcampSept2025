@@ -35,9 +35,9 @@
 * On submit, `POST https://dummyjson.com/users/add`
 
   * Show the **response JSON** below the form (pretty-printed).
-* Add a “Update name” button that does:
+* Bonus: Add a “Update name” button that does:
 
-  * `PUT https://dummyjson.com/users/1` with a body like `{ firstName: 'New' }`
+  * Bonus part: `PUT https://dummyjson.com/users/1` with a body like `{ firstName: 'New' }`
   * Show the **response JSON** below the button.
 
 **Important explainer:**
