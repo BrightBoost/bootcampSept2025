@@ -24,7 +24,7 @@
 - 10.20-10.40: REST exercise 2 (part 7)
 - 10.40-11.00: Basic routing explained
 - 11.00-11.10: More coffee
-- 11.00-11.30: Routing exercise (part 8)
+- 11.10-11.30: Routing exercise (part 8)
 - 11.30-11.50: Passing parameters
 - 11.50-12.20: Passing parameters exercise (part 9)
 - 12.20-12.30: Review
