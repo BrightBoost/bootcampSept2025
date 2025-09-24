@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function RecipeList() {
     const [recipes, setRecipes] = useState([]);
@@ -65,7 +66,9 @@ export default function RecipeList() {
             </form>
             <h2>Recipes</h2>
             <ul>
-                {recipes.map(recipe => (<li key={recipe.id}>{recipe.name}</li>))}
+                {recipes.map(recipe => (
+                    <li key={recipe.id}>{recipe.name} - <Link to={`/recipes/${recipe.id}`}>View details</Link></li>
+                    ))}
             </ul>
         </>
     )
