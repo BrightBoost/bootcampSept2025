@@ -33,9 +33,18 @@
 - 16.15-17.00: Present + wrap up quiz
 
 ## Almost Friday ("Thursday")
-- Testing
-- Context
-- Afternoon: Hackathon 
+- 9.00-9.15: welcome and Maaike won't forget the attendance registry
+- 9.15-9.30: Testing explanation
+- 9.30-9.45: Setting up testing
+- 9.45-10.00: More testing
+- 10.00-10.10: Coffee
+- 10.10-11.00: Adding testing to the project
+- 11.00-11.10: More coffee
+- 11.10-11.30: Make project ready to present
+- 11.30-12.30: In subrooms with instructors showing work done
+- 12.30-13.30: Lunch
+- 13.30-16.45: Hackathon 
+- 16.45-17.00: Wrap up
 
 ## Friday
 - Hackathon
