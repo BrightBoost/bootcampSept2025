@@ -10,7 +10,7 @@
 
 ---
 
-## Setup (follow the docs, not a step list)
+## Part 1 - Setup (follow the docs, not a step list)
 
 Use the official docs to add testing to your Vite project for your system:
 
@@ -31,7 +31,7 @@ Use the official docs to add testing to your Vite project for your system:
 
 ---
 
-## Ideas for what to test
+## Part 2 - Ideas for what to test
 
 Write at least **2 passing tests**, you could cover:
 
