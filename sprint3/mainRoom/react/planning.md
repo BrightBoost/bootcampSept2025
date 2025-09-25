@@ -38,12 +38,13 @@
 - 9.30-9.45: Setting up testing
 - 9.45-10.00: More testing
 - 10.00-10.10: Coffee
-- 10.10-11.00: Adding testing to the project
-- 11.00-11.10: More coffee
-- 11.10-11.30: Make project ready to present
-- 11.30-12.30: In subrooms with instructors showing work done
+- 10.10-11.30: Adding testing to the project + ready to present + getting a coffee
+- 11.30-12.00: Guest speaker
+- 12.00-12.30: In subrooms with instructors showing work done
 - 12.30-13.30: Lunch
-- 13.30-16.45: Hackathon 
+- 13.30-14.00: Room for more presentation in case we're not done
+- 14.00-14.10: Citi pulse survey
+- 14.10-16.45: Hackathon 
 - 16.45-17.00: Wrap up
 
 ## Friday
