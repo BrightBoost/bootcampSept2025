@@ -9,7 +9,7 @@
 - 12:00 - 12:30 - Guest Speaker
 - 12:30 - 13:30 - Lunch Break
 - 13:30 - 14:00 Optional: How to launch a container cluster ECS or EKS on AWS
-- 14:00 - 16:30 hackathon project work (edited) 
+- 14:00 - 16:30 hackathon project work 
 
 
 
