@@ -17,9 +17,10 @@
 - End of day: CODE FREEZE!
 
 ## Friday
+- Knowledge check
 - Deploy final project
 - Prepare presentation
 - Dry run with instructor
 - Implement feedback
 - Present for real
-- Wrap up
+- Wrap up - survey
