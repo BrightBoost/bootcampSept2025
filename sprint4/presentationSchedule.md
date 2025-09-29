@@ -6,7 +6,7 @@
 ## Alexa
 - 2.30pm-2.50pm: Team Name (Rajan, Nat, Safwan, Leonard, Betty)
 - 2.55pm-3.15pm: Neueda Nerds
-- 3.20pm-3.40pm: UnNamed (Liam, Steward, Sean)
+- 3.20pm-3.40pm:SSL (Liam, Steward, Sean)
 
 ## Maaike
 - 2.30pm-2.50pm: HIPA
