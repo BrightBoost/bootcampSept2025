@@ -38,7 +38,7 @@
 - 9.30-9.45: Setting up testing
 - 9.45-10.00: More testing
 - 10.00-10.10: Coffee
-- 10.10-11.30: Adding testing to the project + ready to present + getting a coffee
+- 10.10-11.30: Adding testing to the project + finalize mini project + ready to present (no slides required) + getting a coffee
 - 11.30-12.00: Guest speaker
 - 12.00-12.30: In subrooms with instructors showing work done
 - 12.30-13.30: Lunch

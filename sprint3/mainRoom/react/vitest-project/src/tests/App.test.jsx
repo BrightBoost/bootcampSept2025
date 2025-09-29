@@ -2,7 +2,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import { describe, it, expect, vi, afterEach } from 'vitest';
 import userEvent from '@testing-library/user-event';
 
-import App from './App';
+import App from '../App';
 
 describe('App Component', () => {
     it('should render the welcome message', () => {
