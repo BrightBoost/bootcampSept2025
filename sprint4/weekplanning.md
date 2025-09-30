@@ -9,8 +9,10 @@
 ## Wednesday (Alexa)
 - Morning: CI/CD talk + demo of how to deploy docker container Linux
 - Afternoon: deploying project to linux machines
+- To do: neueda survey + knowledge check at 4PM
 
 ## Thursday
+- First thing: Citi pulse survey
 - Morning: Hackathon time
 - Afternoon: Hackathon time
 - Instructor will check in the morning for the project must haves (doesn't have to be done yet) 
@@ -23,4 +25,4 @@
 - Dry run with instructor
 - Implement feedback
 - Present for real
-- Wrap up - survey
+- Wrap up
