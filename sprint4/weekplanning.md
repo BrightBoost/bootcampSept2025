@@ -12,14 +12,13 @@
 - To do: neueda survey + knowledge check at 4PM
 
 ## Thursday
-- First thing: Citi pulse survey
 - Morning: Hackathon time
 - Afternoon: Hackathon time
 - Instructor will check in the morning for the project must haves (doesn't have to be done yet) 
 - End of day: CODE FREEZE!
 
 ## Friday
-- Knowledge check
+- First thing: Citi pulse survey
 - Deploy final project
 - Prepare presentation
 - Dry run with instructor
