@@ -4,9 +4,9 @@
 - 3.20pm-3.40pm: 404 Team Not Found
 
 ## Alexa
-- 2.30pm-2.50pm: Team Name (Rajan, Nat, Safwan, Leonard, Betty)
+- 2.30pm-2.50pm: Team Name 
 - 2.55pm-3.15pm: Neueda Nerds
-- 3.20pm-3.40pm:SSL (Liam, Steward, Sean)
+- 3.20pm-3.40pm:SSL 
 
 ## Maaike
 - 2.30pm-2.50pm: HIPA
